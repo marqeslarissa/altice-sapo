@@ -4,7 +4,7 @@ import logoFacebook from "../../assets/images/logo-facebook.png";
 import logoTwitter from "../../assets/images/logo-twitter.png";
 import './styles.css';
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="footer">
       <div className="section1">

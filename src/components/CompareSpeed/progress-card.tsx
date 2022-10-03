@@ -28,12 +28,12 @@ const ProgressCard = ({ delay, sault,title, finalText }: Progress) => {
 
     return (
         <div style={{width:'auto'}}>
-            <h3>{title}</h3>
-            <br/>
             <br/>
             <CircularProgress
+            color="secondary"
             size={200} 
             variant="determinate" 
+            placeholder="1"
             value={value} />
             <br/> 
             <br/>

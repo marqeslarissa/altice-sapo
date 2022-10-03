@@ -1,20 +1,16 @@
 import React from 'react'
-
 import './styles.css';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import CompareSpeed from '../../components/CompareSpeed';
 import Contact from '../../components/Contact';
-import Container from '@mui/material/Container';
+import CompareSpeed from '../../components/CompareSpeed';
 
-function Home() {
+const Home = () => {
   return (
     <div>
       <Header />
-      <Container maxWidth="sm">
-        <CompareSpeed />
+  <CompareSpeed />
         <Contact />
-      </Container>
       <Footer />
     </div>
   );

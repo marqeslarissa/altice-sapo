@@ -4,7 +4,6 @@ import logoInstagram from "../../assets/images/logo-instagram.png";
 import logoFacebook from "../../assets/images/logo-facebook.png";
 import logoTwitter from "../../assets/images/logo-twitter.png";
 
-
 const Footer = () => {
   return (
     <footer className="footer">

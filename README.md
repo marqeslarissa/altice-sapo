@@ -35,7 +35,7 @@ This project was only tested in **Chrome Version 100.0.4896.127** on a PC.
 
 
 ------------------
-Sobre o desenvolvimento do projeto:
+Sobre o desenvolvimento do projeto (Larissa Marques):
 
 - Foi criado um repositório para tal no github, pois não sabia se podia "commitar" no qual me foi enviado através do seu email. Mas caso seja necessário, basta me informar (não se trata de é um processo demorado);
 

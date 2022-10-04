@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import './styles.scss'
 import ProgressCard from './progress-card';
 import Typography from "@mui/material/Typography";
 

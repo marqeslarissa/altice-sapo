@@ -2,12 +2,12 @@ import React from 'react';
 import logoInstagram from "../../assets/images/logo-instagram.png";
 import logoFacebook from "../../assets/images/logo-facebook.png";
 import logoTwitter from "../../assets/images/logo-twitter.png";
-import './styles.css';
+import './styles.scss';
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="section1">
+      <div className="section">
         <div>
           <span>Também estamos aqui:</span>
           <div className="social">
@@ -22,9 +22,9 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div id="footer__community">
-          <h3>Comuidade SAPO</h3>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.sapo.pt/">Nos conheça melhor</a>
+        <div className="community">
+          <h3>Comunidade SAPO</h3>
+          <a target="_blank" href="https://www.sapo.pt/">Nos conheça melhor</a>
         </div>
       </div>
       <div>

@@ -1,5 +1,5 @@
 import * as React from "react";
-import './styles.css';
+import './styles.scss';
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Unstable_Grid2";
 import IconButton from "@mui/material/IconButton";
@@ -11,8 +11,8 @@ function Contact() {
   return (
     <div className="contact">
       <Box sx={{ flexGrow: 1 }}>
-        <Grid container spacing={2} minHeight={80} className="contact__input">
-          <fieldset className="contact__text">
+        <Grid container spacing={2} minHeight={80} className="input">
+          <fieldset className="text">
             <Typography variant="h6" gutterBottom>
               Quer saber mais?
             </Typography>

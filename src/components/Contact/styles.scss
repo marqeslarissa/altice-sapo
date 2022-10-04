@@ -1,0 +1,17 @@
+.contact {
+  display: flex;
+  align-items: stretch;
+  padding: 50px;
+
+  .input{
+    justify-content: center;
+  }
+  .text {
+    margin-right: 3%;
+  }
+}
+
+// ID do próprio componente
+#standard-basic{
+  padding: 3%;
+}

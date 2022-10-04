@@ -33,7 +33,6 @@ const ProgressCard = ({ delay, sault,title, finalText }: Progress) => {
             color="secondary"
             size={200} 
             variant="determinate" 
-            placeholder="1"
             value={value} />
             <br/> 
             <br/>

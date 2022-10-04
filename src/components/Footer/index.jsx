@@ -1,8 +1,9 @@
 import React from 'react';
+import './styles.scss';
 import logoInstagram from "../../assets/images/logo-instagram.png";
 import logoFacebook from "../../assets/images/logo-facebook.png";
 import logoTwitter from "../../assets/images/logo-twitter.png";
-import './styles.scss';
+
 
 const Footer = () => {
   return (

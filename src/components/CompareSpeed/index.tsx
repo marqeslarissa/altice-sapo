@@ -6,14 +6,15 @@ import Typography from "@mui/material/Typography";
 const CompareSpeed = () => {
   return (
     <div>
-      <Typography className="title" variant="h4" gutterBottom>
+      <Typography id="title" variant="h4" gutterBottom>
         Qual a diferença entre a velocidade do seu plano?
       </Typography>
-      <Typography className="subtitle" variant="overline" gutterBottom>
+      <Typography id="subtitle" variant="overline" gutterBottom>
         Nós mostramos!
       </Typography>
-      <div className='content-cards'>
-        <div className='progress-card' id="card-5g">
+      {/*Chart component about 3, 4 and 5G*/}
+      <div className='content'>
+        <div className='progress'>
           <h1>5G</h1>
           <ProgressCard
             title="5G"
@@ -21,7 +22,7 @@ const CompareSpeed = () => {
             delay={200}
             sault={10} />
         </div>
-        <div className='progress-card'>
+        <div className='progress'>
           <h1>4G</h1>
           <ProgressCard
             title="4G"
@@ -29,7 +30,7 @@ const CompareSpeed = () => {
             delay={500}
             sault={10} />
         </div>
-        <div className='progress-card'>
+        <div className='progress'>
           <h1>3G</h1>
           <ProgressCard
             title="3G"
@@ -39,7 +40,6 @@ const CompareSpeed = () => {
         </div>
       </div>
     </div>
-
   );
 }
 

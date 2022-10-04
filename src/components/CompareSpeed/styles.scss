@@ -1,27 +1,34 @@
 @import "../../styles.scss";
-
-.content-cards{
-    display: flex;
-    justify-content: center;
+@font-face {
+  font-family: 'Black';
+  font-style: bold;
+  font-weight: 700;
+  src: url(../../assets/fonts/Roboto-Black.ttf) format('woff2'),
+    url(../../assets/fonts/Roboto-Black.ttf) format('woff');
+}
+#title {
+  display: flex;
+  justify-content: center;
+  color: $title;
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 30px;
+  font-family: ("Black", sans-serif);
 }
 
-.title{
-    display: flex;
-    justify-content: center;
-    font-family: "Meta", sans-serif;
-    color: $title;
-    font-size: 18px;
-    font-weight: bold;
-    padding-top: 30px;
+#subtitle {
+  display: flex;
+  justify-content: center;
+  color: $subtitle;
+  font-family: ("Black", sans-serif);
+  font-size: 18px;
 }
 
-.subtitle{
-    display: flex;
-    justify-content: center;
-    color: #f40468;
-}
+.content {
+  display: flex;
+  justify-content: center;
 
-.progress-card{
+  .progress {
     padding: 2% 2% 4% 2%;
     margin: 20px;
     width: 200px;
@@ -32,27 +39,24 @@
     margin-bottom: 16px;
     border-radius: 20px;
     padding: 15px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);  
-    background: linear-gradient(
-      35deg,
-      #ccffff,
-      #ffcccc);
-}
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background: linear-gradient(35deg,
+        #ccffff,
+        #ffcccc);
 
-h1{
-    transition: all 0.5s;
-    -webkit-text-stroke: 5px #d6f4f4;
-    font-variation-settings: "wght" 100, "ital" 1;
-    font-size: 4rem;
-    text-align: center;
-    color: transparent;
-    font-family: "Meta", sans-serif;
-    text-shadow: 10px 10px 6px #07bccc,
-      15px 15px 0px #e601c0,
-      20px 20px 8px #e9019a,
-      25px 25px 8px #f40468,
-      45px 45px 10px #482896;
-    cursor: pointer;
-    margin-bottom: 15px;
+    h1 {
+      transition: all 0.5s;
+      -webkit-text-stroke: 5px #d6f4f4;
+      font-variation-settings: "wght" 100, "ital" 1;
+      font-size: 4rem;
+      color: transparent;
+      font-family: "Meta", sans-serif;
+      text-shadow: 10px 10px 6px #07bccc,
+        15px 15px 0px #e601c0,
+        20px 20px 8px #e9019a,
+        25px 25px 8px #f40468,
+        45px 45px 10px $title;
+      cursor: pointer;
+    }
+  }
 }
-

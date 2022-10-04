@@ -1,5 +1,4 @@
 import React from 'react'
-import './styles.css';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Contact from '../../components/Contact';
@@ -9,8 +8,8 @@ const Home = () => {
   return (
     <div>
       <Header />
-  <CompareSpeed />
-        <Contact />
+      <CompareSpeed />
+      <Contact />
       <Footer />
     </div>
   );
